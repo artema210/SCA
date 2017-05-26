@@ -565,7 +565,7 @@ void hoge(){
 	EFp_XZ_Init(&D);
 	mpz_t j;
 	mpz_init(j);
-	mpz_set_ui(j,13423);
+	mpz_set_ui(j,13425);
 
 	EFp_Rand(&A);
 	EFp_SCM(&B,&A,j);
